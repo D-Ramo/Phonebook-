@@ -10,14 +10,19 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server -p3001 --watch db.json"
+    "server": "json-server -p3001 --watch db.json",
+    "back": "node index.js",
+    "dev": "nodemon index.js"
 
   },
   "eslintConfig": {
@@ -36,6 +41,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+      
     ]
   },
   "devDependencies": {
