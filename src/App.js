@@ -85,7 +85,7 @@ const App = () => {
         </div>
         <div>
           <button onClick={messegeHandler} type="submit">add</button>
-         </div>       sss
+         </div>       
       </form>
       <h2>Numbers</h2>
       <Display setPersons={setPersons} persons={filter !== '' ? filterdPersons : persons} />
