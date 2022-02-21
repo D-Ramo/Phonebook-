@@ -67,7 +67,6 @@ const App = () => {
   }
 
   return (
-    <body style="background-color: grey">
     <div >
       <h2>phonebook</h2>
       {messege ? <Messege messege={messege} setMessege={setMessege} /> : null}
@@ -92,7 +91,6 @@ const App = () => {
       <Display setPersons={setPersons} persons={filter !== '' ? filterdPersons : persons} />
 
     </div>
-    </body>
   )
 }
 
