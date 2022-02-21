@@ -67,7 +67,8 @@ const App = () => {
   }
 
   return (
-    <div>
+    <body style="background-color: grey">
+    <div >
       <h2>phonebook</h2>
       {messege ? <Messege messege={messege} setMessege={setMessege} /> : null}
       filter show with:  <input
@@ -91,6 +92,7 @@ const App = () => {
       <Display setPersons={setPersons} persons={filter !== '' ? filterdPersons : persons} />
 
     </div>
+    </body>
   )
 }
 
