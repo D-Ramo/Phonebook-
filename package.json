@@ -23,7 +23,6 @@
     "server": "json-server -p3001 --watch db.json",
     "back": "node index.js",
     "dev": "nodemon index.js"
-
   },
   "eslintConfig": {
     "extends": [
@@ -41,7 +40,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-      
     ]
   },
   "devDependencies": {

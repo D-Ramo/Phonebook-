@@ -42,12 +42,9 @@ const App = () => {
 
 
 
-    if (persons.find((person) => { return person.name === newName })) {
-      alert("fuck you dont use the same name twice")
 
-    } else {
       setPersons(persons.concat(personobj))
-    }
+
     setNewName('')
 
   }
